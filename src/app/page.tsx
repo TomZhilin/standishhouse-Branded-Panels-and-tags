@@ -42,14 +42,18 @@ export default function StandishHouseLanding() {
       {/* Header */}
       <header className="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <img src="/logo-sh.png" alt="Standish House logo" className="h-9 w-9 rounded-2xl" />
+          <div className="flex items-center gap-2 whitespace-nowrap">
+  <img
+    src="/logo-sh.png"
+    alt="Standish House logo"
+    className="h-9 w-9 rounded-2xl object-contain"
+  />
+  <div>
+    <div className="font-semibold leading-tight">Standish House</div>
+    <div className="text-xs text-neutral-500">Branded Panels & Tags · Illinois</div>
+  </div>
+</div>
 
-            <div>
-              <div className="font-semibold leading-tight">Standish House</div>
-              <div className="text-xs text-neutral-500">Branded Panels & Tags · Illinois</div>
-            </div>
-          </div>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#features" className="hover:text-neutral-600">Why Us</a>
             <a href="#gallery" className="hover:text-neutral-600">Gallery</a>
