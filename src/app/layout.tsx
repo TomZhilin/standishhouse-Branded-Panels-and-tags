@@ -16,10 +16,7 @@ export const metadata: Metadata = {
   title: "Standish House — Branded Blanking Panels & Aluminum Tags",
   description:
     "Custom UV-printed rack panels and adhesive aluminum tags. No minimums. Made in Illinois.",
-  icons: [
-    { rel: "icon", url: "/favicon.png" },
-    { rel: "shortcut icon", url: "/favicon.png" },
-  ],
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
