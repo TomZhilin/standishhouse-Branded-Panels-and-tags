@@ -46,7 +46,7 @@ export default function StandishHouseLanding() {
   <img
     src="/logo-sh.png"
     alt="Standish House logo"
-    className="h-9 w-9 rounded-2xl object-contain"
+    className="h-10 w-10 object-contain"
   />
   <div>
     <div className="font-semibold leading-tight">Standish House</div>
