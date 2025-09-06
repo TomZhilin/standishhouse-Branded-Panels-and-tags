@@ -43,7 +43,8 @@ export default function StandishHouseLanding() {
       <header className="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="h-9 w-9 rounded-2xl bg-neutral-900 text-white grid place-items-center font-semibold">SH</div>
+            <img src="/logo-sh.png" alt="Standish House logo" className="h-9 w-9 rounded-2xl" />
+
             <div>
               <div className="font-semibold leading-tight">Standish House</div>
               <div className="text-xs text-neutral-500">Branded Panels & Tags · Illinois</div>
